@@ -1,6 +1,18 @@
-# ESP8266 Interactive Display
+<p align="center"><img src="media/voltra-logo.jpg" alt="VOLTRA — official project logo" width="720"></p>
+
+# VOLTRA Arcade
 
 ### Physical input. Visual feedback. Embedded electronics you can see.
+
+![VOLTRA Arcade illustrated reference architecture](media/overview.svg)
+
+## See the idea in motion
+
+[![Animated one-axis paddle-game concept](media/walkthrough.gif)](media/walkthrough.mp4)
+
+[Watch or download the 12-second explainer](media/walkthrough.mp4). An original, silent animation of the newly written paddle-game concept—not the original photographed game or a hardware demonstration. Physical joystick and display adapters are disabled by default.
+
+## The real prototype
 
 ![Real ESP8266 breadboard prototype with joystick and TFT](images/prototype.jpg)
 

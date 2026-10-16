@@ -1,0 +1,5 @@
+test_id,source_revision,condition,reference,observed,unit,acceptance_rule,status,evidence_file,notes
+A1,,,,,,Compare actual endpoints and reference paddle mapping,not_run,,
+A2,,,,,,Record the measurement method before quoting latency,not_run,,
+A3,,,,,,Match game events to the recorded source revision,not_run,,
+A4,,,,,,Choose run duration and fault criteria before testing,not_run,,

@@ -1,6 +1,8 @@
 <h1 align="center">VOLTRA</h1>
 <h2 align="center">Arcade</h2>
 
+<p align="center"><a href="docs/ENGINEERING_GUIDE.md">Understand the build</a> · <a href="docs/DEMO_TEST_PLAN.md">Plan a real demo</a> · <a href="tests/hardware-observations.csv">Record observations</a></p>
+
 ### Physical input. Visual feedback. Embedded electronics you can see.
 
 ![VOLTRA Arcade illustrated reference architecture](media/overview.svg)
@@ -48,5 +50,15 @@ The owner confirms that this photograph represents its own independent project. 
 ## Tests, limitations, and next step
 
 Current physical evidence: one genuine photograph. The new firmware compiles for its documented reference target and has standalone logic tests; these are [software results](BUILD_STATUS.md), not a dynamic joystick/TFT test. The next hardware milestone is a recording of actual input-to-display behavior.
+
+## Understand, demonstrate, verify
+
+[Engineering walkthrough](docs/ENGINEERING_GUIDE.md) · [Real demonstration & test plan](docs/DEMO_TEST_PLAN.md) · [Measurement template](tests/hardware-observations.csv)
+
+The walkthrough explains the actual reference source and visible hardware. It includes troubleshooting questions and software-only learning exercises. The test plan specifies what a genuine recording and measurement should show; all hardware-observation rows remain **not_run** until a real test is performed.
+
+[![Real prototype annotated with visible components and purpose notes](media/component-guide.png)](media/component-guide.png)
+
+[Open the full-size component guide](media/component-guide.png) · [Editable SVG](media/component-guide.svg). The original photograph is embedded unchanged. Unknown functions are marked; leader lines are **not a wiring schematic**.
 
 Project author: [ali9235](https://github.com/ali9235). Independent hardware project with newly authored reference firmware; physical commissioning remains pending.
